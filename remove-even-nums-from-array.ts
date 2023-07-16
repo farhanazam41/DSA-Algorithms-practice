@@ -12,7 +12,7 @@ const removeEvenNums = (arr: number[]): Array<number> | null => {
 	return oddNums;
 };
 
-// imperitive approach
+// imperitive approach with filter method
 
 const removeEvenNumsWithFilter = (arr: number[]) : number[] => {
     return [...arr].filter(num => num % 2 === 1)
